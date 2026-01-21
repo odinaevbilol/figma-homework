@@ -7,6 +7,54 @@
     <link rel="stylesheet" href="./output.css">
 </head>
 <body>
-    
+    <header class="w-full bg-white shadow">
+  <div class="max-w-7xl mx-auto px-4">
+    <div class="flex items-center justify-between h-16">
+      
+      <div class="md:hidden  text-xl font-semibold">
+        logo
+      </div>
+
+      
+      <nav class="hidden md:flex gap-8 text-gray-600 font-medium justify-center ml-80">
+        <a href="#" class="hover:text-black">Booking</a>
+        <a href="#" class="hover:text-black">Facilities</a>
+        <a href="#" class="hover:text-black">About Us</a>
+        <a href="#" class="hover:text-black">Location</a>
+        <a href="#" class="hover:text-black">Contact</a>
+      </nav>
+
+      
+      <div class="hidden md:block">
+        <button class="px-5 py-2 bg-green-500 text-white rounded-full hover:bg-green-600 transition">
+          Login
+        </button>
+      </div>
+
+     
+      <button id="menuBtn" class="md:hidden">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2"
+          viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round"
+            d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  
+  <div id="mobileMenu" class="hidden md:hidden bg-white border-t">
+    <nav class="flex flex-col items-center gap-4 py-4 text-gray-600">
+      <a href="#">Booking</a>
+      <a href="#">Facilities</a>
+      <a href="#">About Us</a>
+      <a href="#">Location</a>
+      <a href="#">Contact</a>
+      <button class="mt-2 px-6 py-2 bg-green-500 text-white rounded-full">
+        Login
+      </button>
+    </nav>
+  </div>
+</header>
 </body>
 </html>
